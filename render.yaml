@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: discord-reddit-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    pythonVersion: 3.12.3
+    autoDeploy: true

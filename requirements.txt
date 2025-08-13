@@ -1,0 +1,5 @@
+discord.py==2.3.2
+asyncpraw==7.7.0
+python-dotenv==1.0.1
+flask==2.3.3
+audioop-lts
