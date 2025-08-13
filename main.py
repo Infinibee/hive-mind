@@ -91,8 +91,9 @@ async def check_subreddit():
         except Exception as e:
             print(f"❌ Fehler beim Abrufen: {e}")
 
-        await asyncio.sleep(300)
+        await asyncio.sleep(3600)
 
 if __name__ == "__main__":
     keep_alive()
     client.run(os.getenv("DISCORD_TOKEN"))
+
